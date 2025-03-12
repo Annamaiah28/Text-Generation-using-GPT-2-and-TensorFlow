@@ -1,4 +1,3 @@
-# Text-Generation-using-GPT-2-and-TensorFlow
 # Text Generation using GPT-2 and TensorFlow
 
 This project demonstrates how to generate text using the GPT-2 model with TensorFlow and the Hugging Face Transformers library.
