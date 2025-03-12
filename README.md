@@ -90,3 +90,13 @@ model.save_pretrained("gpt2_model")
 ```bash
 tokenizer.save_pretrained("gpt2_tokenizer")
 ```
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+Thanks to Hugging Face for providing the Transformers library.
+
+Thanks to OpenAI for developing the GPT-2 model.
+
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
