@@ -37,15 +37,17 @@ To run this project, you need the following dependencies:
    git clone https://github.com/your-username/text-generation-gpt2.git
    cd text-generation-gpt2
 
-## Install the required libraries:
-```bash
-pip install tensorflow transformers
+## 2. Install the required libraries:
+   ```bash
+   pip install tensorflow transformers
+   ```
 
 ## Usage
 To generate text using the GPT-2 model, run the provided Python script:
 
 ```bash
 python text_generation_using_gpt_2_and_tensorflow.py
+```
 
 ## Customizing the Script
 You can modify the following parameters in the script:
@@ -70,16 +72,21 @@ prompt = "Once upon a time"
 # Generate text
 generated_text = generate_text(prompt, max_length=50)
 print("Generated Text:", generated_text)
+```
 
 ## Sample Output
 
 Generated Text: Once upon a time, in a land far, far away, there lived a brave knight who embarked on a quest to save the kingdom from an evil dragon. Along the way, he encountered many challenges...
 
-Saving the Model and Tokenizer
+## Saving the Model and Tokenizer
 The script allows you to save the GPT-2 model and tokenizer for future use. The model and tokenizer are saved in the gpt2_model and gpt2_tokenizer directories, respectively.
 
 # Save the model
+```bash
 model.save_pretrained("gpt2_model")
+```
 
 # Save the tokenizer
+```bash
 tokenizer.save_pretrained("gpt2_tokenizer")
+```
