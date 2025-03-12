@@ -38,12 +38,13 @@ To run this project, you need the following dependencies:
    cd text-generation-gpt2
 
 ## Install the required libraries:
+```bash
 pip install tensorflow transformers
 
 ## Usage
 To generate text using the GPT-2 model, run the provided Python script:
 
-
+```bash
 python text_generation_using_gpt_2_and_tensorflow.py
 
 ## Customizing the Script
@@ -62,6 +63,7 @@ You can modify the following parameters in the script:
 Example
 Here’s an example of how to use the script:
 
+```bash
 # Example prompt
 prompt = "Once upon a time"
 
