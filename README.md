@@ -68,9 +68,11 @@ prompt = "Once upon a time"
 # Generate text
 generated_text = generate_text(prompt, max_length=50)
 print("Generated Text:", generated_text)
-Sample Output
-Copy
+
+## Sample Output
+
 Generated Text: Once upon a time, in a land far, far away, there lived a brave knight who embarked on a quest to save the kingdom from an evil dragon. Along the way, he encountered many challenges...
+
 Saving the Model and Tokenizer
 The script allows you to save the GPT-2 model and tokenizer for future use. The model and tokenizer are saved in the gpt2_model and gpt2_tokenizer directories, respectively.
 
