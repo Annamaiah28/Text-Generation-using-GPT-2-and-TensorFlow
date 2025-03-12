@@ -97,7 +97,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Thanks to [Hugging Face](https://huggingface.co/) for providing the Transformers library.
 - Thanks to [OpenAI](https://openai.com/) for developing the GPT-2 model.
 
-Thanks to OpenAI for developing the GPT-2 model.
-
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
